@@ -1,0 +1,50 @@
+body{
+    background-color: #f5f5f5;
+}
+#center{
+    padding-top: 10%;
+    display: flex;
+    font-family: roboto;
+}
+
+#left{
+    color: rgb(75, 75, 75);
+    text-align: left;
+    float: left;
+    font-size: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+#right{
+    float: right;
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    border: 15px solid rgb(173, 173, 173);
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  24px 24px 48px #a8a8a8,
+             -24px -24px 48px #ffffff;
+    outline: 15px solid rgb(218, 218, 218);
+}
+
+h1{
+    
+    font-size: 50px;
+}
+
+h2{
+    font-family: roboto;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    
+}
